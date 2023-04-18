@@ -1,7 +1,7 @@
 settings:
-  title: 'Flame Status'
+  title: 'Status'
   url: 'https://status.flamebot.xyz/' # used for Slack messages
-  logo: logo-192x192.png # image in ./public/ folder
+  logo: flame_text_logo.webp # image in ./public/ folder
   daysInHistogram: 30 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
