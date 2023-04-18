@@ -23,3 +23,12 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: true # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
+
+  - id: stt # unique identifier
+    name: STT API
+    description: 'Speech to Text API' # default=empty
+    url: 'https://stt.flamebot.xyz' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: true # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
